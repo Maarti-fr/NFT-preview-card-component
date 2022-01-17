@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: Outfit, serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 2em black;
+}
+
+.img_main {
+    display: block;
+    max-width: 260px;
+    height: auto;
+    border-radius: 15px;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.filtre {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img_NFT:hover .img_main {
+    opacity: 0.3;
+}
+
+.img_NFT:hover .filtre {
+    opacity: 1;
+}
+
+.icon_view {
+    background-color: hsla(178, 100%, 50%, .4);
+    display: block;
+    max-width: 260px;
+    height: auto;
+    border-radius: 15px;
+    padding: 106px;
+}
+
+.nom_NFT {
+    margin: 15px 0px 15px;
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nom_NFT:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.prix_date {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+.ethereum {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    gap: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    gap: 5px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.profil {
+    color: hsl(215, 51%, 70%);
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0px;
+    gap: 15px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.img_profil img {
+    max-width: 25px;
+    height: auto;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creation span {
+    color: hsl(0, 0%, 100%);
+}
+
+.creation span:hover {
+    color: hsl(178, 100%, 50%);
+}
