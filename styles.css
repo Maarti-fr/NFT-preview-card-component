@@ -9,6 +9,9 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+
+/* La carte */
+
 .card {
     box-sizing: border-box;
     background-color: hsl(216, 50%, 16%);
@@ -27,6 +30,9 @@ body {
     box-shadow: 0 0 2em black;
 }
 
+
+/* image du NFT */
+
 .img_main {
     display: block;
     max-width: 260px;
@@ -43,7 +49,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .img_NFT:hover .img_main {
@@ -62,6 +67,9 @@ body {
     border-radius: 15px;
     padding: 106px;
 }
+
+
+/* titres et description */
 
 .nom_NFT {
     margin: 15px 0px 15px;
